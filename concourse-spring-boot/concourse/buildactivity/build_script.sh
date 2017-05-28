@@ -1,5 +1,5 @@
 echo "====Build Started====="
-/.gradlew build
+./gradlew build
 echo "====Build Completed Successfully====="
 pwd
 #all input resources are copied to concourse-spring-boot-output directory within container
