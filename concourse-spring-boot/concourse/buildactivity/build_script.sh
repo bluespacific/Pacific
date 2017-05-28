@@ -1,3 +1,7 @@
+set -e # fail fast
+set -x # print commands
+export TERM=${TERM:-dumb}
+
 echo "====Build Started====="
 ./gradlew build
 echo "====Build Completed Successfully====="
