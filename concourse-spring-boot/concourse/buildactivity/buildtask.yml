@@ -15,7 +15,7 @@ outputs:
   - name: concourse-springboot-output
   
 run:
-  path: "hello-springboot-application/concourse-spring-boot/concourse/buildtask/build_script.sh"
+  path: "hello-springboot-application/concourse-spring-boot/concourse/buildactivity/build_script.sh"
 
 params:
   TERM: -dumb
