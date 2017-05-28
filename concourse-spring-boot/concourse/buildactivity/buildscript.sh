@@ -5,7 +5,8 @@ set -x # print commands
 export TERM=${TERM:-dumb}
 
 echo "====Build Started====="
-./gradlew build
+pwd
+../gradlew build
 echo "====Build Completed Successfully====="
 pwd
 #all input resources are copied to concourse-spring-boot-output directory within container
