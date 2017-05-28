@@ -1,0 +1,19 @@
+
+resources:
+  - name:
+    type:
+    source:
+      branch:
+      uri:
+      username:
+      password:
+
+  - name:
+    type:
+    source:
+      branch:
+      uri:
+      username:
+      password:
+ 
+         

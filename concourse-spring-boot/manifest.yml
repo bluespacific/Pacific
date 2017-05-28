@@ -1,0 +1,10 @@
+---
+applications:
+- name: hello-concourse-demo-service
+  memory: 512M
+  instances: 1
+  host: hello-concourse
+  path: concourse-spring-boot.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    
