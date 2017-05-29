@@ -11,10 +11,10 @@ echo "====Build Completed Successfully====="
 cd hello-springboot-application
 ls -l
 pwd
-cd concourse-spring-boot
-pwd
-#all input resources are copied to concourse-spring-boot-output directory within container
-cp ./build/libs/concourse-spring-boot*.jar ../concourse-spring-boot-output
+#cd concourse-spring-boot
+#pwd
+#all input resources are copied to concourse-spring-boot-output directory within container #./concourse-spring-boot-output
+cp ./concourse-spring-boot/build/libs/concourse-spring-boot*.jar .
 echo "jar copied success"
 cp ./manifest.yml ../concourse-spring-boot-output
 echo "=======Copied to Output folder======"
