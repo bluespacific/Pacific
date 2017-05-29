@@ -6,7 +6,7 @@ export TERM=${TERM:-dumb}
 
 echo "====Build Started====="
 pwd
-./hello-springboot-application/concourse-spring-boot/gradlew clean build
+./hello-springboot-application/concourse-spring-boot/gradlew build
 echo "====Build Completed Successfully====="
 cd hello-springboot-application
 ls -l

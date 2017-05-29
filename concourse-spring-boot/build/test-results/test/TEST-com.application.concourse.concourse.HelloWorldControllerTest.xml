@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.application.concourse.concourse.HelloWorldControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-28T04:49:57" hostname="Arthavit-PC" time="0.0">
-  <properties/>
-  <testcase name="testHelloWorldController" classname="com.application.concourse.concourse.HelloWorldControllerTest" time="0.0"/>
-  <system-out><![CDATA[Hi, This is Sample Application illustrating Concourse
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
