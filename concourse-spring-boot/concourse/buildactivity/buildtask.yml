@@ -12,7 +12,7 @@ inputs:
 
 #create output directory
 outputs:
-  - name: concourse-springboot-output
+  - name: concourse-spring-boot-output
   
 run:
   path: "hello-springboot-application/concourse-spring-boot/concourse/buildactivity/buildscript.sh"
