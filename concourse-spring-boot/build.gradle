@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.4.1.RELEASE'
+		springBootVersion = '1.5.2.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
 apply plugin: 'application'
 
-
+//org.gradle.daemon=true
 eclipse {
 	classpath {
 		 containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
@@ -40,6 +40,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('com.opencsv:opencsv:3.3')
 	testCompile('junit:junit:4.4')
 }
 
