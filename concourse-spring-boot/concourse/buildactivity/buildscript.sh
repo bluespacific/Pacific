@@ -9,13 +9,15 @@ echo "====Build Started====="
 pwd
 cd hello-springboot-application
 ls -l
-./concourse-spring-boot/gradlew build
+cd concourse-spring-boot
+ls -l
+gradlew build
 ls -l
 echo "====Build Completed Successfully====="
 #cd hello-springboot-application
 ls -l
 pwd
-cd concourse-spring-boot
+
 echo "In concourse-spring-boot"
 ls -l
 
