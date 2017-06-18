@@ -8,7 +8,8 @@ echo "====Build Started====="
 
 pwd
 cd hello-springboot-application
-./concourse-spring-boot/gradlew.bat clean build
+ls -l
+./concourse-spring-boot/gradlew clean build
 ls -l
 echo "====Build Completed Successfully====="
 #cd hello-springboot-application
