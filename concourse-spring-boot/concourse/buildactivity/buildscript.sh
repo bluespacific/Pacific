@@ -11,7 +11,7 @@ cd hello-springboot-application
 ls -l
 #cd concourse-spring-boot
 #ls -l
-./gradlew build
+./concourse-spring-boot/gradlew build
 ls -l
 echo "====Build Completed Successfully====="
 #cd hello-springboot-application
