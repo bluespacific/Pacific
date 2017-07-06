@@ -4,6 +4,7 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
+		 jcenter()
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -42,5 +43,10 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile('com.opencsv:opencsv:3.3')
 	testCompile('junit:junit:4.4')
+	
+}
+eclipse.classpath.file.whenMerged { 
+    def lib = entries.find { it.path.contains 'org.springframework.boot' }
+    lib.exported = true
 }
 
