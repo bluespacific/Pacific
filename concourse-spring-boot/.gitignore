@@ -2,7 +2,8 @@
 .project
 .settings
 .metadata
-
+.classpath
 /bin/
+/build/
 pipeline.yml
 credential_input.yml
