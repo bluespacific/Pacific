@@ -9,13 +9,13 @@ echo "====Build Started====="
 pwd
 cd hello-springboot-application
 ls -l
-#cd concourse-spring-boot
+cd concourse-spring-boot
 #ls -l
-./concourse-spring-boot/gradlew build --info
+./gradlew build --info
 
 ls -l
 echo "====1st Build Completed ====="
-./concourse-spring-boot/gradlew build
+./gradlew build
 echo "====2nd Build Completed Successfully====="
 #cd hello-springboot-application
 ls -l
@@ -26,7 +26,7 @@ ls -l
 
 #pwd
 #all input resources are copied to concourse-spring-boot-output directory within container #./concourse-spring-boot-output
-cp ./concourse-spring-boot/build/libs/concourse-spring-boot*.jar ../concourse-spring-boot-output
+cp ./build/libs/concourse-spring-boot*.jar ../concourse-spring-boot-output
 echo "jar copied success"
 cp ./manifest.yml ../concourse-spring-boot-output
 echo "=======Copied to Output folder======"
