@@ -12,6 +12,7 @@ ls -l
 #cd concourse-spring-boot
 #ls -l
 ./concourse-spring-boot/gradlew clean
+echo "===clean done===="
 ./concourse-spring-boot/gradlew build
 
 ls -l
