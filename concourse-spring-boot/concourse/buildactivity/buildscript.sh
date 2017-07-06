@@ -11,12 +11,9 @@ cd hello-springboot-application
 ls -l
 cd concourse-spring-boot
 #ls -l
-./gradlew build --info
-
-ls -l
-echo "====1st Build Completed ====="
+#./gradlew build --info
 ./gradlew build
-echo "====2nd Build Completed Successfully====="
+echo "====Build Completed Successfully====="
 #cd hello-springboot-application
 ls -l
 pwd
@@ -31,7 +28,10 @@ echo "jar copied success"
 cp ./manifest.yml ../concourse-spring-boot-output
 echo "=======Copied to Output folder======"
 cd..
+pwd
 cd..
+pwd
 ls -l
 cd concourse-spring-boot-output
 ls -l
+pwd
