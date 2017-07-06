@@ -23,15 +23,7 @@ ls -l
 
 #pwd
 #all input resources are copied to concourse-spring-boot-output directory within container #./concourse-spring-boot-output
-cp ./build/libs/concourse-spring-boot*.jar ../concourse-spring-boot-output
+cp ./build/libs/concourse-spring-boot*.jar ../../concourse-spring-boot-output
 echo "jar copied success"
-cp ./manifest.yml ../concourse-spring-boot-output
+cp ./manifest.yml ../../concourse-spring-boot-output
 echo "=======Copied to Output folder======"
-cd..
-pwd
-cd..
-pwd
-ls -l
-cd concourse-spring-boot-output
-ls -l
-pwd
