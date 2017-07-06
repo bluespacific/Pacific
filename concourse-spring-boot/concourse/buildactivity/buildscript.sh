@@ -11,10 +11,13 @@ cd hello-springboot-application
 ls -l
 #cd concourse-spring-boot
 #ls -l
-./concourse-spring-boot/gradlew.bat build
+./concourse-spring-boot/gradlew clean
+./concourse-spring-boot/gradlew build
 
 ls -l
-echo "====Build Completed Successfully====="
+echo "====1st Build Completed ====="
+./concourse-spring-boot/gradlew build
+echo "====2nd Build Completed Successfully====="
 #cd hello-springboot-application
 ls -l
 pwd
