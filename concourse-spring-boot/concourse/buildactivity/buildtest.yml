@@ -1,0 +1,22 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: java
+    tag: latest
+#create input directory within container    
+inputs:
+  - name: hello-springboot-application
+#  - name: 2nd input if any     
+
+#create output directory
+outputs:
+  - name: concourse-spring-boot-output
+  
+run:
+  path: "hello-springboot-application/concourse-spring-boot/concourse/buildactivity/buildtestscript.sh"
+
+params:
+  TERM: -dumb
+  GRADLE_OPTS: -Dorg.gradle.native=false    
