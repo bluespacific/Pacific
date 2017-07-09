@@ -1,8 +1,8 @@
 #!/bin/sh
 
-set -e # fail fast
-set -x # print commands
-export TERM=${TERM:-dumb}
+#set -e # fail fast
+#set -x # print commands
+#export TERM=${TERM:-dumb}
 
 echo "====Build Started====="
 

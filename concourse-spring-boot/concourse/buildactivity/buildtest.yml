@@ -17,6 +17,6 @@ outputs:
 run:
   path: "hello-springboot-application/concourse-spring-boot/concourse/buildactivity/buildtestscript.sh"
 
-params:
-  TERM: -dumb
-  GRADLE_OPTS: -Dorg.gradle.native=false    
+#params:
+#  TERM: -dumb
+#  GRADLE_OPTS: -Dorg.gradle.native=false    
